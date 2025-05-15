@@ -47,7 +47,11 @@ source venv/bin/activate
 
 ### 3. Instalar dependencias
 ```bash
-pip install selenium webdriver-manager python-dotenv
+pip install selenium==4.15.2
+pip install webdriver-manager==4.0.1
+pip install python-dotenv==1.0.0
+pip install beautifulsoup4==4.12.2
+pip install lxml==4.9.3
 ```
 
 ### 4. Configurar credenciales
